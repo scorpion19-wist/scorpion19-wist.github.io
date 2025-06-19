@@ -112,14 +112,14 @@ nav a:hover::after {
 }
 
 .formation-card {
-    background: rgb(46, 26, 14);
+    background: rgba(255, 255, 255, 0.05);
     border-radius: 15px;
     padding: 25px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1),0 6px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 102, 246, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
     flex-direction: column;
-    min-height: 400px; /* Hauteur minimale fixe */
+    min-height: 400px; 
     position: relative;
     padding: 25px;
     animation: cardAppear 0.5s ease-out backwards;
@@ -128,8 +128,8 @@ nav a:hover::after {
 
 .formation-card:hover {
     transform: translateY(-10px) scale(1.02);
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
-     background: linear-gradient(145deg,#d3ad8d 0%,#2b2b2c 100% )
+    background: rgba(0, 102, 246, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 102, 246, 0.2);
 }
 
 .formation-card:hover img {
@@ -256,7 +256,4 @@ footer {
     font-family: 'Segoe UI', Arial, sans-serif;
     letter-spacing: 0.5px;
 }
-
-
-
 
